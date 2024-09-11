@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body{
+    font-family: "Hind Siliguri", sans-serif;
+    background-color: rgb(15 23 42);
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 120px;
+}
+
+.nav{
+    background-color: rgb(15 23 42);
+    border-bottom: 0.5px solid #eeeeee8f;
+}
+.nav>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items{
+    padding: 18px 0;
+}
+
+.menu-items>a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-items>button{
+    padding: 4px 15px;
+    margin: 0 5px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#heading{
+    padding: 50px 0px;
+    color: #eee;
+}
+
+#heading>h1{
+    font-size: 38px;
+}
+#heading>p{
+    width: 300px;
+}
+
+#card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 320px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.card>.img{
+    width: 100%;
+}
+
+.card>.img>img{
+    width: 100%;
+}
+
+.card-bottom{
+    padding: 5px 0;
+}
+.add-info{
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+.course-code{
+    background-color: #ff5300;
+    padding: 3px 10px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.course-price{
+    display: block;
+    margin-left: auto;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 22px;
+    color: lightgreen;
+
+}
+.card-heading{
+    padding: 5px 15px;
+}
+.card-heading>h4{
+    font-size: 22px;
+}
+.card-heading>p{
+    color: aquamarine;
+    font-size: 14px;
+}
+
+.card-bottom>button{
+    display: block;
+    padding: 5px 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: slategray;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.payment-options>img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+}
+
